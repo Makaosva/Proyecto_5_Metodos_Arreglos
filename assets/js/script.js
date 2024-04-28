@@ -48,10 +48,10 @@ const fillList = () => {
     // Agregar contenido al elemento <li>
     listItem.innerHTML = `
         <p><span>${id}</span></p>
-        <p><span>${tarea}</span>
-        <input onchange="checkInput(${id})" ${
+        <p><span>${tarea}</span></p>
+        <p><input onchange="checkInput(${id})" ${
       realizada ? "checked" : ""
-    } type="checkbox"/>
+    } type="checkbox"/></p>
         <span onclick="deleteTarea(${id})">❌</span></p>
         `;
 
