@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto 5 - Todo List</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card" id="form-card">
+        <h2>Todo List</h2>
+        <hr />
+        <form id="task-form">
+          <p>Nueva Tarea</p>
+          <input type="text" id="task" placeholder="" required />
+          <button type="submit">Agregar</button>
+        </form>
+        <div class="result-form">
+          <div id="stats">
+            <p>
+              Total: <strong><span id="total">0</span></strong>
+            </p>
+            <p>
+              Realizadas: <strong><span id="realizadas">0</span></strong>
+            </p>
+          </div>
+          <div>
+            <div id="list-card">
+              <p><strong>ID</strong></p>
+              <p><strong>Tarea</strong></p>
+            </div>
+            <div class="lista">
+              <ul id="task-list">
+                <!-- Las tateas se agregarán aquí dinámicamente -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
