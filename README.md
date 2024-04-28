@@ -18,4 +18,6 @@ Aplicando los conceptos y herramientas aprendidas hasta ahora, deberás crear un
 
 5. Contar el total de tareas realizadas.
 
+6.El código incluye al menos 3 tareas iniciales en el arreglo y estas se muestran en la página web recorriendo el arreglo (se puede utilizar for of o forEach)
+
 ⌨️Escrito con ❤️ y [Macarena Osses](https://github.com/Makaosva)
